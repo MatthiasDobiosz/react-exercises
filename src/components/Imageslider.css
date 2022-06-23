@@ -1,0 +1,37 @@
+/*.slider-container{
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+img{
+    width: 540px;
+    height: auto;
+}
+
+.previous-button{
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    top: 38%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.next-button{
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    top: 38%;
+    right: 40.7%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}*/
+
+

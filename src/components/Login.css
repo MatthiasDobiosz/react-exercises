@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+*{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.Login-Container{
+    display: flex;
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(211, 115, 25);
+    border-radius: 5%;
+}
+
+.Login-Container label, input{
+    margin: 15px;
+    display: flex;
+}
+
+.Login-Container input{
+    margin: auto;
+    width: 210px;
+}
+
+
+.error-message{
+    width: 100%;
+    height: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Login-button{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: rgb(230, 180, 88);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.Login-button:hover{
+    background-color: rgb(204, 146, 38);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+*{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.Logout-Container{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(211, 115, 25);
+    border-radius: 5%;
+}
+
+
+.logout-button{
+    width: 50%;
+    margin-left: 10px;
+    background-color: rgb(230, 180, 88);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.logout-button:hover{
+    background-color: rgb(204, 146, 38);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,22 @@
+.searchbar{
+    display: inline;
+    margin-left: 45%;
+    position: relative;
+    top: 10px;
+}
+
+.search-list{
+    margin: auto;
+    width: 50%;
+    padding-left: 900px;
+    padding-top: 20px;
+
+}
+
+.wordlist{
+    list-style-type: none;
+}
+
+.word{
+    list-style-type: none;
+}
