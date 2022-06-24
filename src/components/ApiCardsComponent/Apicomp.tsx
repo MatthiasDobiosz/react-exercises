@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getApiData } from "../services/getApiData";
+import { getApiData } from "../../services/getApiData";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
 import "./Apicomp.css";
 export const Apicomp = () => {

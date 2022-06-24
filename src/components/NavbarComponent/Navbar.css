@@ -1,0 +1,41 @@
+.navbar-container{
+    display: flex;
+    background-color: rgb(27, 22, 22);
+    margin-top: 5px;
+    width: 100vw;
+    
+}
+
+.navbar-title{
+    margin-right: auto;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+}
+
+
+.category-list{
+    display: flex;
+    align-self: flex-end;
+    list-style-type: none;
+    margin: 0;
+}
+
+.category-list li{
+    display: list-item;
+    border-left: 1px solid black;
+}
+
+.category-list :nth-child(6){
+    border-right: 1px solid black;
+}
+
+.nav-category{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 4px 20px 4px 20px;
+    font-size: 1em;
+    color: white;
+}

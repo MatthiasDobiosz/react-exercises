@@ -1,6 +1,6 @@
 import React, {useState, useRef} from "react";
 import "./Accordion.css"
-import Chevron from "./Chevron";
+import Chevron from "../Svgs/Chevron";
 
 const Accordion = (props) =>{
 
