@@ -7,6 +7,7 @@ const Question = (props) => {
 
     const toggleQuestion = () =>{
         setActive(active?false:true)
+        props.toggleCols(props.col);
     }
     return(
         <div className="question-container" onClick={toggleQuestion}>

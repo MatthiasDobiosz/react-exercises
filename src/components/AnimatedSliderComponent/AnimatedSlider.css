@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .next,
@@ -26,11 +27,11 @@
 }
 
 .next {
-    right: 10px;
+    right: 15%;
   }
   
   .prev {
-    left: 10px;
+    left: 15%;
   }
 
 

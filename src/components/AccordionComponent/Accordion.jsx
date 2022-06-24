@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-import "./Accordion.css"
+import "./Accordion.css";
 import Chevron from "../Svgs/Chevron";
 
 const Accordion = (props) =>{
@@ -9,6 +9,7 @@ const Accordion = (props) =>{
     const [rotate, setRotate] = useState("accordion__icon");
 
     const content = useRef(null);
+    console.log(props)
 
     const toggleAccordion = () => {
         setActive(active===""?"active":"");

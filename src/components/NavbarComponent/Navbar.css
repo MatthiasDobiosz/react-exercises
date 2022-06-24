@@ -8,7 +8,8 @@
 
 .navbar-title{
     margin-right: auto;
-    font-size: 1.2em;
+    margin-left: 2em;
+    font-size: 1.5em;
     text-align: center;
     text-decoration: none;
     color: orange;
@@ -20,6 +21,7 @@
     align-self: flex-end;
     list-style-type: none;
     margin: 0;
+    margin-right: 20em;
 }
 
 .category-list li{
