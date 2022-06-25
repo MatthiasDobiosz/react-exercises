@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Question from "./Question";
-import "./questionnaire.css"
+import "./questionnaire.css";
+import { useTheme } from "../ThemeContext";
 
 const Questionnaire = () => {
 
@@ -11,9 +12,14 @@ const Questionnaire = () => {
         console.log(colors)
     }
 
+    const darkTheme = useTheme();
+    const themeStyles = {
+        backgroundColor: darkTheme ? '#333' : '#CCC'
+    }
+
     return(
         <>
-        <div className="questionnaire-container">
+        <div className="questionnaire-container" style={themeStyles}>
             <h3>Please fill out following questions:</h3>
             <Question text="Are you green?" toggleCols={toggleCols} col="green"/>
             <Question text="Are you blue?" toggleCols={toggleCols} col="blue"/>

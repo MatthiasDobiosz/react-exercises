@@ -1,12 +1,19 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
+import { useTheme, useThemeUpdate } from "../ThemeContext";
 
 const Navbar = () => {
 
+    const darkTheme = useTheme();
+    const toggleTheme = useThemeUpdate();
+    const themeStyles = {
+        backgroundColor: darkTheme ? '#333' : '#CCC'
+    }
+
     return(
         <>
-            <div className="navbar-container">
+            <div className="navbar-container" style={themeStyles}>
                 <Link to ="/" className="navbar-title">ComponentCollection</Link>
                 <ul className="category-list">
                     <li>
@@ -74,6 +81,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
+                <button onClick={toggleTheme} className="toggler">Toggle Darkmode</button>
             </div>
         </>
     );

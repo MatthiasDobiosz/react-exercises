@@ -1,8 +1,15 @@
 .searchbar{
-    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 
 .searchfield{
     width: 400px;
+
+}
+
+.btn-primary{
+    
 }

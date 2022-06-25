@@ -25,7 +25,7 @@ export const Apicomp = () => {
     }
     return(
         <>
-            <InputGroup className="searchbar">
+            <InputGroup className="searchbar" >
                 <FormControl
                 onChange={(e) => setGame(e.target.value) }
                 className="searchfield"
